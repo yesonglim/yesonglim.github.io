@@ -1092,9 +1092,9 @@ ul.social_icon li a:hover {
 }
 
 .blog-card {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
+  display: -ms-flexbox; */
   display: flex;
   text-align: left;
   border: 1px solid #dee2e6;
@@ -1157,16 +1157,16 @@ ul.social_icon li a:hover {
 }
 
 @media (max-width: 991.98px) {
-  .blog-card {
+  /* .blog-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-  .blog-card .img-holder {
+  } */
+  /* .blog-card .img-holder {
     width: 100%;
     max-width: 100%;
     min-width: 100%;
-  }
+  } */
 }
